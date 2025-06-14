@@ -72,7 +72,7 @@ def get_listing_data_from_page(url, area_name):
         time.sleep(1)
     return data
 
-def get_all_pages(base_url, max_pages=5, area_name="Unknown"):
+def get_all_pages(base_url, max_pages=200, area_name="Unknown"):
     all_results = []
     for page in range(1, max_pages + 1):
         paged_url = f"{base_url}?page={page}"
