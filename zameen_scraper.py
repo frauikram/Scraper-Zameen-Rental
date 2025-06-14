@@ -14,7 +14,8 @@ HEADERS = {'User-Agent': 'Mozilla/5.0'}
 BASE_URL = "https://www.zameen.com"
 
 LOCATION_URLS = {
-    "Askari 4": "https://www.zameen.com/Rentals/Karachi_Askari_4-417/3_bedrooms/",
+    "Askari 4": "https://www.zameen.com/Homes/Karachi_Gulistan_e_Jauhar_Askari_4-6648-1.html?beds_in=3",
+    # https://www.zameen.com/Rentals/Karachi_Askari_4-417/3_bedrooms/
     "Askari 5": "https://www.zameen.com/Rentals/Karachi_Askari_5-418/3_bedrooms/",
     "KDA Officers": "https://www.zameen.com/Rentals/Karachi_KDA_Officers_Society-423/3_bedrooms/",
     "PECHS": "https://www.zameen.com/Rentals/Karachi_PECHS-410/3_bedrooms/",
