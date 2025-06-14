@@ -14,12 +14,18 @@ HEADERS = {'User-Agent': 'Mozilla/5.0'}
 BASE_URL = "https://www.zameen.com"
 
 LOCATION_URLS = {
-    "Askari 4": "https://www.zameen.com/Homes/Karachi_Gulistan_e_Jauhar_Askari_4-6648-1.html?beds_in=3",
-    # https://www.zameen.com/Rentals/Karachi_Askari_4-417/3_bedrooms/
-    "Askari 5": "https://www.zameen.com/Rentals/Karachi_Askari_5-418/3_bedrooms/",
-    "KDA Officers": "https://www.zameen.com/Rentals/Karachi_KDA_Officers_Society-423/3_bedrooms/",
-    "PECHS": "https://www.zameen.com/Rentals/Karachi_PECHS-410/3_bedrooms/",
-    "KDA Overseas": "https://www.zameen.com/Rentals/Karachi_KDA_Overseas-4968/3_bedrooms/"
+    # "Askari 4":
+    # "https://www.zameen.com/Homes/Karachi_Gulistan_e_Jauhar_Askari_4-6648-1.html?beds_in=3",
+    # "Askari 5":
+    # "https://www.zameen.com/Rentals/Karachi_Askari_5-418/3_bedrooms/",
+    # "KDA Officers":
+    # "https://www.zameen.com/Rentals/Karachi_KDA_Officers_Society-423/3_bedrooms/",
+    # "PECHS":
+    # "https://www.zameen.com/Rentals/Karachi_PECHS-410/3_bedrooms/",
+    # "KDA Overseas":
+    # "https://www.zameen.com/Rentals/Karachi_KDA_Overseas-4968/3_bedrooms/",
+    "Priority":
+    "https://www.zameen.com/Rentals/Karachi_Cantt_Malir_Cantonment_Askari_5-6655-1.html?locations=%2FKarachi_Gulistan_e_Jauhar_Askari_4-6648%2C%2FKarachi_Jamshed_Town_PECHS-403%2C%2FKarachi_Gulshan_e_Iqbal_Town_KDA_Officers_Society-508%2C%2FKarachi_Gulistan_e_Jauhar_KDA_Overseas_Bungalows-19647&beds_in=3&sort=price_asc"
 }
 
 def get_listing_data_from_page(url, area_name):
